@@ -1,0 +1,26 @@
+.App__top {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+  font-size: 18px;
+}
+
+.App__top a {
+  color: rgb(28, 30, 33);
+  display: block;
+  margin-right: 25px;
+  text-decoration-line: none;
+}
+
+.App__top a:hover {
+  color: rgb(118, 74, 188);
+}
+
+.App__top a:visited {
+  color: rgb(28, 30, 33);
+}
+
+.App__top a.active {
+  color: rgb(118, 74, 188);
+}
